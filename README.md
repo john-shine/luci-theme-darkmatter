@@ -1,4 +1,10 @@
-Darkmatter theme for LuCI (LEDE/OpenWRT)
+Fork from [Darkmatter theme for LuCI (LEDE/OpenWRT)](https://github.com/apollo-ng/luci-theme-darkmatter)
+
+========================================
+This is a quick fix for broken with openWrt 18.06.0 in 1 hour. I didn't compare old releases for update my router to lastest version already, but only fixed broken styles and js functions. It works ok, but maybe different with old looks, hope it help.
+
+If any big problem, I will continue try to fix.
+
 ========================================
 
 Darkmatter is an alternative HTML5 theme for LuCI that has evolved from
@@ -55,26 +61,6 @@ Enable the Theme
 
   * Go to System -> System -> Language and Style
   * Choose Darkmatter in the Design selectbox
-
-Screenshots
-----------
-
-### Desktop
-
-![Darkmatter theme for LuCI - Status](https://github.com/apollo-ng/luci-theme-darkmatter/blob/master/screenshots/desktop-status.jpg?raw=true)
-![Darkmatter theme for LuCI - Realtime Graphs](https://github.com/apollo-ng/luci-theme-darkmatter/blob/master/screenshots/desktop-load.jpg?raw=true)
-![Darkmatter theme for LuCI -  Interfaces](https://github.com/apollo-ng/luci-theme-darkmatter/blob/master/screenshots/desktop-interfaces.jpg?raw=true)
-![Darkmatter theme for LuCI - Wifi](https://github.com/apollo-ng/luci-theme-darkmatter/blob/master/screenshots/desktop-wifi.jpg?raw=true)
-![Darkmatter theme for LuCI - Wifi Edit](https://github.com/apollo-ng/luci-theme-darkmatter/blob/master/screenshots/desktop-wifi-edit.jpg?raw=true)
-
-### Tablet
-
-![Darkmatter theme for LuCI - Startup](https://github.com/apollo-ng/luci-theme-darkmatter/blob/master/screenshots/tablet-startup.jpg?raw=true)
-
-### Phone
-
-![Darkmatter theme for LuCI -  Status](https://github.com/apollo-ng/luci-theme-darkmatter/blob/master/screenshots/phone-status.jpg?raw=true)
-![Darkmatter theme for LuCI - Load](https://github.com/apollo-ng/luci-theme-darkmatter/blob/master/screenshots/phone-load.jpg?raw=true)
 
 License
 -------
