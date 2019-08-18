@@ -40,10 +40,10 @@ table {
 .main>.loading>span,
 .showSide {
     speak: none;
-    font-style: normal!important;
-    font-weight: 400!important;
-    font-variant: normal!important;
-    text-transform: none!important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-variant: normal !important;
+    text-transform: none !important;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -117,7 +117,7 @@ input[type=radio] {
 }
 
 input[type=file] {
-    padding: 0!important;
+    padding: 0 !important;
     height: inherit
 }
 
@@ -285,7 +285,7 @@ footer>a {
 }
 
 .warning {
-    background-color: #FF7D60!important;
+    background-color: #FF7D60 !important;
     color: #FFF
 }
 
@@ -407,8 +407,8 @@ h3 {
 }
 
 .main>.main-left>.nav>.slide>.slide-menu>.active {
-    background: #4f4e4a!important;
-    border-top: 1px solid #63615e!important
+    background: #4f4e4a !important;
+    border-top: 1px solid #63615e !important
 }
 
 .main>.main-left>.nav>.slide>.slide-menu.active>li {
@@ -423,7 +423,7 @@ h3 {
 }
 
 .main>.main-left>.nav>.slide>.slide-menu.active>li:hover {
-    background: rgba(117, 137, 12, .45)!important;
+    background: rgba(117, 137, 12, .45) !important;
     border-top: 1px solid rgba(129, 140, 72, .45)
 }
 
@@ -491,7 +491,7 @@ fieldset {
 }
 
 fieldset>legend {
-    display: none!important
+    display: none !important
 }
 
 fieldset>fieldset {
@@ -523,7 +523,7 @@ table {
     border-spacing: 0;
     border-collapse: collapse;
     border: none;
-    margin: 0!important
+    margin: 0 !important
 }
 
 .cbi-rowstyle-1,
@@ -566,10 +566,10 @@ table>tbody>tr:nth-last-child(1) {
 #memtotal>div,
 #swapfree>div,
 #swaptotal>div {
-    width: 100%!important;
-    height: 1.2rem!important;
+    width: 100% !important;
+    height: 1.2rem !important;
     background: #1f1e1a;
-    border: 1px solid #000!important
+    border: 1px solid #000 !important
 }
 
 #conns>div>div,
@@ -578,8 +578,8 @@ table>tbody>tr:nth-last-child(1) {
 #memtotal>div>div,
 #swapfree>div>div,
 #swaptotal>div>div {
-    height: 100%!important;
-    background-color: rgba(117, 137, 12, .75)!important
+    height: 100% !important;
+    background-color: rgba(117, 137, 12, .75) !important
 }
 
 #conns>div>div>div,
@@ -588,7 +588,7 @@ table>tbody>tr:nth-last-child(1) {
 #memtotal>div>div>div,
 #swapfree>div>div>div,
 #swaptotal>div>div>div {
-    color: #fafafa!important;
+    color: #fafafa !important;
     line-height: 17px
 }
 
@@ -611,7 +611,7 @@ td>table>tbody>tr>td {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    width: auto!important;
+    width: auto !important;
     color: #d8d3c5;
     font-size: .8rem;
     font-family: DIN;
@@ -644,7 +644,7 @@ td>table>tbody>tr>td {
 .cbi-input-remove,
 .cbi-input-reset,
 .cbi-section-remove>.cbi-button {
-    color: #2f2e2a!important;
+    color: #2f2e2a !important;
     text-shadow: 0 1px 1px rgba(255, 255, 255, .62);
     text-transform: uppercase
 }
@@ -677,12 +677,12 @@ form.inline+form.inline {
 
 .cbi-button-reset,
 .cbi-input-remove {
-    box-shadow: inset 0 0 14px 0 #db4213, 0 0 3px 0 #db6113!important;
-    border: 1px solid rgba(255, 129, 92, .65)!important;
-    background: #dbb013!important;
-    background: -moz-radial-gradient(center, ellipse cover, #dbb013 0, #c69611 100%)!important;
-    background: -webkit-radial-gradient(center, ellipse cover, #dbb013 0, #c69611 100%)!important;
-    background: radial-gradient(ellipse at center, #dbb013 0, #c69611 100%)!important
+    box-shadow: inset 0 0 14px 0 #db4213, 0 0 3px 0 #db6113 !important;
+    border: 1px solid rgba(255, 129, 92, .65) !important;
+    background: #dbb013 !important;
+    background: -moz-radial-gradient(center, ellipse cover, #dbb013 0, #c69611 100%) !important;
+    background: -webkit-radial-gradient(center, ellipse cover, #dbb013 0, #c69611 100%) !important;
+    background: radial-gradient(ellipse at center, #dbb013 0, #c69611 100%) !important
 }
 
 .cbi-button-add,
@@ -692,35 +692,35 @@ form.inline+form.inline {
 .cbi-input-find,
 .cbi-input-reload,
 .cbi-input-save {
-    color: #2f2e2a!important;
+    color: #2f2e2a !important;
     text-shadow: 0 1px 1px rgba(255, 255, 255, .62);
     text-transform: uppercase;
-    box-shadow: inset 0 0 24px 0 #606f11, 0 0 3px 0 #9db134!important;
-    border: 1px solid #799037!important;
-    background: #7eaa0f!important;
-    background: -webkit-radial-gradient(center ellipse, #7eaa0f 0, #6d8006 100%)!important;
-    background: radial-gradient(ellipse at center, #7eaa0f 0, #6d8006 100%)!important
+    box-shadow: inset 0 0 24px 0 #606f11, 0 0 3px 0 #9db134 !important;
+    border: 1px solid #799037 !important;
+    background: #7eaa0f !important;
+    background: -webkit-radial-gradient(center ellipse, #7eaa0f 0, #6d8006 100%) !important;
+    background: radial-gradient(ellipse at center, #7eaa0f 0, #6d8006 100%) !important
 }
 
 .cbi-button-apply,
 .cbi-button-edit,
 .cbi-input-apply {
     box-shadow: inset 0 0 24px 0 rgba(62, 62, 62, .77), 0 0 4px 0 rgba(236, 232, 219, .75);
-    border: 1px solid #969696!important;
-    background: #dbb013!important;
-    background: -webkit-radial-gradient(center ellipse, #e0dbcf 0, rgba(224, 219, 204, .7) 100%)!important;
-    background: radial-gradient(ellipse at center, #e0dbcf 0, rgba(224, 219, 204, .7) 100%)!important
+    border: 1px solid #969696 !important;
+    background: #dbb013 !important;
+    background: -webkit-radial-gradient(center ellipse, #e0dbcf 0, rgba(224, 219, 204, .7) 100%) !important;
+    background: radial-gradient(ellipse at center, #e0dbcf 0, rgba(224, 219, 204, .7) 100%) !important
 }
 
 .cbi-button-remove,
 .cbi-input-reset,
 .cbi-section-remove>.cbi-button {
-    box-shadow: inset 0 0 14px 0 #82290e, 0 0 3px 0 #db4213!important;
-    border: 1px solid #b73813!important;
-    background: #db4213!important;
-    background: -moz-radial-gradient(center, ellipse cover, #db4213 0, #c93612 100%)!important;
-    background: -webkit-radial-gradient(center, ellipse cover, #db4213 0, #c93612 100%)!important;
-    background: radial-gradient(ellipse at center, #db4213 0, #c93612 100%)!important
+    box-shadow: inset 0 0 14px 0 #82290e, 0 0 3px 0 #db4213 !important;
+    border: 1px solid #b73813 !important;
+    background: #db4213 !important;
+    background: -moz-radial-gradient(center, ellipse cover, #db4213 0, #c93612 100%) !important;
+    background: -webkit-radial-gradient(center, ellipse cover, #db4213 0, #c93612 100%) !important;
+    background: radial-gradient(ellipse at center, #db4213 0, #c93612 100%) !important
 }
 
 .a-to-btn {
@@ -835,11 +835,11 @@ form.inline+form.inline {
 
 .cbi-rowstyle-2 .cbi-button-down,
 .cbi-rowstyle-2 .cbi-button-up {
-    background-color: #FFF!important
+    background-color: #FFF !important
 }
 
 .cbi-section-table .cbi-section-table-titles .cbi-section-table-cell {
-    width: auto!important
+    width: auto !important
 }
 
 .cbi-section-table-titles {
@@ -860,11 +860,11 @@ form.inline+form.inline {
 }
 
 .left {
-    text-align: left!important
+    text-align: left !important
 }
 
 .right {
-    text-align: right!important
+    text-align: right !important
 }
 
 .inline {
@@ -1017,14 +1017,14 @@ td>.ifacebadge {
 #bwsvg,
 #iwsvg,
 #iwsvg2 {
-    border: 1px solid #1f1e1a!important;
-    border-top: none!important;
+    border: 1px solid #1f1e1a !important;
+    border-top: none !important;
     box-shadow: inset 0 0 42px 0 #000;
-    background: url(../img/stripes.svg) #1f1e1a!important
+    background: url(../img/stripes.svg) #1f1e1a !important
 }
 
 svg {
-    background: rgba(15, 14, 10, .8)!important
+    background: rgba(15, 14, 10, .8) !important
 }
 
 .ifacebox {
@@ -1161,19 +1161,19 @@ input[name=nslookup] {
 }
 
 #xhr_poll_status>.label.success {
-    color: #fafafa!important;
-    text-shadow: 0 1px 1px rgba(65, 65, 65, .4)!important;
-    box-shadow: inset 0 0 24px 0 #606f11, 0 0 3px 0 #9db134!important;
-    border: 1px solid #799037!important;
-    background: #7eaa0f!important;
-    background: -webkit-radial-gradient(center ellipse, #7eaa0f 0, #6d8006 100%)!important;
-    background: radial-gradient(ellipse at center, #7eaa0f 0, #6d8006 100%)!important;
+    color: #fafafa !important;
+    text-shadow: 0 1px 1px rgba(65, 65, 65, .4) !important;
+    box-shadow: inset 0 0 24px 0 #606f11, 0 0 3px 0 #9db134 !important;
+    border: 1px solid #799037 !important;
+    background: #7eaa0f !important;
+    background: -webkit-radial-gradient(center ellipse, #7eaa0f 0, #6d8006 100%) !important;
+    background: radial-gradient(ellipse at center, #7eaa0f 0, #6d8006 100%) !important;
     margin-right: 4px;
     padding: 5px
 }
 
 .label {
-    color: #d8d3c5!important;
+    color: #d8d3c5 !important;
     font-size: .8rem;
     text-shadow: 0 1px 1px #000;
     text-decoration: none;
@@ -1189,15 +1189,15 @@ input[name=nslookup] {
 
 #modemenu>li .active>.label {
     box-shadow: inset 0 0 24px 0 rgba(62, 62, 62, .77), 0 0 4px 0 rgba(236, 232, 219, .75);
-    border: 1px solid #969696!important;
-    background: #dbb013!important;
-    background: -webkit-radial-gradient(center ellipse, #e0dbcf 0, rgba(224, 219, 204, .7) 100%)!important;
-    background: radial-gradient(ellipse at center, #e0dbcf 0, rgba(224, 219, 204, .7) 100%)!important
+    border: 1px solid #969696 !important;
+    background: #dbb013 !important;
+    background: -webkit-radial-gradient(center ellipse, #e0dbcf 0, rgba(224, 219, 204, .7) 100%) !important;
+    background: radial-gradient(ellipse at center, #e0dbcf 0, rgba(224, 219, 204, .7) 100%) !important
 }
 
 #modemenu>li .active>.label>a {
-    color: #d8d3c5!important;
-    text-shadow: 0 1px 1px rgba(10, 9, 4, .4)!important
+    color: #d8d3c5 !important;
+    text-shadow: 0 1px 1px rgba(10, 9, 4, .4) !important
 }
 
 .notice {
@@ -1234,7 +1234,7 @@ input[name=nslookup] {
 .node-main-login>.main .container {
     display: inline-block;
     padding: 2rem 4rem;
-    margin-top: 3rem!important;
+    margin-top: 3rem !important;
     background-color: #1f1e1a;
     text-align: left;
     border: 1px solid #3f3e3a;
@@ -1243,7 +1243,7 @@ input[name=nslookup] {
 
 .node-main-login fieldset:nth-child(3n) table table tr td,
 .node-status-overview fieldset:nth-child(3n) table table tr td {
-    padding: 7px!important
+    padding: 7px !important
 }
 
 .node-main-login>.main form>div:nth-last-child(1) {
@@ -1255,7 +1255,7 @@ input[name=nslookup] {
 }
 
 .node-main-login>.main .cbi-value>* {
-    display: inline-block!important
+    display: inline-block !important
 }
 
 .node-main-login>.main .cbi-input-password,
@@ -1368,7 +1368,7 @@ input[name=nslookup] {
 }
 
 .node-system-packages>.main table tr td:nth-child(1) {
-    width: auto!important
+    width: auto !important
 }
 
 .node-system-packages>.main table tr td:nth-last-child(1) {
@@ -1524,12 +1524,12 @@ input[name=nslookup] {
 }
 
 .node-network-network fieldset .cbi-section-node table td:nth-of-type(1) {
-    padding: 5px!important
+    padding: 5px !important
 }
 
 .node-network-network fieldset .cbi-section-node table td,
 .node-network-wireless fieldset .cbi-section-node table td {
-    padding: 10px!important
+    padding: 10px !important
 }
 
 .node-network-network fieldset .cbi-section-table br {
@@ -1573,8 +1573,8 @@ input[name=nslookup] {
 
 .node-network-routes td:nth-of-type(5) input,
 .node-network-routes td:nth-of-type(6) input {
-    width: 50px!important;
-    max-width: 50px!important
+    width: 50px !important;
+    max-width: 50px !important
 }
 
 body.lang_pl.node-main-login .cbi-value-title {
@@ -1586,7 +1586,7 @@ body.lang_pl.node-main-login .cbi-value-title {
 }
 
 .info {
-    background: 0 0!important
+    background: 0 0 !important
 }
 
 pre,
@@ -1642,8 +1642,8 @@ textarea {
         font-size: 1.1rem
     }
     table {
-        font-size: .7rem!important;
-        width: 100%!important
+        font-size: .7rem !important;
+        width: 100% !important
     }
 }
 
@@ -1669,7 +1669,7 @@ textarea {
         font-size: 1.7rem
     }
     .node-main-login .showSide {
-        display: none!important
+        display: none !important
     }
     .cbi-value-title {
         width: 9rem;
@@ -1677,13 +1677,13 @@ textarea {
     }
     .node-network-diagnostics>.main .cbi-map fieldset>div,
     .node-network-diagnostics>.main .cbi-map fieldset>div * {
-        width: 100%!important
+        width: 100% !important
     }
     .node-network-diagnostics>.main .cbi-map fieldset>div input[type=text] {
-        margin: 3rem 0 0!important
+        margin: 3rem 0 0 !important
     }
     .node-network-diagnostics>.main .cbi-map fieldset>div:nth-child(4) input[type=text] {
-        margin: 0!important
+        margin: 0 !important
     }
     .node-network-diagnostics>.main .cbi-map fieldset>div input[type=button],
     .node-network-diagnostics>.main .cbi-map fieldset>div select {
@@ -1709,7 +1709,7 @@ textarea {
     }
     .cbi-value-title {
         width: 100%;
-        min-width: 0!important;
+        min-width: 0 !important;
         display: block;
         margin-top: 1rem;
         margin-bottom: .5rem;
@@ -1745,7 +1745,7 @@ textarea {
         margin-top: 2rem
     }
     .node-main-login>.main .cbi-value-title {
-        width: 100%!important;
+        width: 100% !important;
         font-size: 1.2rem
     }
     .node-main-login>.main fieldset {
@@ -1764,13 +1764,13 @@ textarea {
         font-size: 1.4rem
     }
     .node-system-packages>.main .cbi-value.cbi-value-last>div {
-        width: 100%!important
+        width: 100% !important
     }
     .node-system-packages>.main .cbi-value .cbi-value-field input {
         width: 100%
     }
     .node-status-iptables>.main div>.cbi-map>form {
-        position: static!important;
+        position: static !important;
         margin: 0 0 2rem;
         padding: 2rem;
         border: 0;
@@ -1787,7 +1787,7 @@ textarea {
         -webkit-overflow-scrolling: touch
     }
     .node-status-iptables>.main div>.cbi-map>form input[type=submit] {
-        width: 100%!important;
+        width: 100% !important;
         margin: 0
     }
     .node-status-iptables>.main div>.cbi-map>form input[type=submit]+input[type=submit] {
