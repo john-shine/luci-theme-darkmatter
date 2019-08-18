@@ -20,7 +20,7 @@ Installation
 Edit your feeds.conf and add the following to it:
 
     # luci-theme-darkmatter
-    src-git darkmatter git://github.com/apollo-ng/luci-theme-darkmatter.git
+    src-git darkmatter https://github.com/john-shine/luci-theme-darkmatter.git
 
 Update your build environment and install the package:
 
