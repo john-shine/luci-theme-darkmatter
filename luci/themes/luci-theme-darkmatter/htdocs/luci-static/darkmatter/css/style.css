@@ -642,6 +642,8 @@ td>table>tbody>tr>td {
 }
 
 .cbi-button {
+    height: 1.65rem;
+    margin-top: -0.35rem;
     -webkit-appearance: none;
     display: inline-block;
     cursor: pointer;
@@ -836,7 +838,11 @@ form.inline+form.inline {
 .cbi-value-description,
 .cbi-value-field {
     display: table-cell;
-    line-height: 1.25
+    line-height: 1.25;
+}
+.table .td.cbi-value-field {
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 .cbi-value-helpicon>img {
@@ -1135,14 +1141,21 @@ svg {
 
 .cbi-tooltip-container {
     cursor: help;
+    display: inline-block;
+    vertical-align: text-top;
 }
 
 .cbi-tooltip {
+    display: block;
     position: absolute;
     z-index: 1000;
     left: -1000px;
     opacity: 0;
     transition: opacity .25s ease-out;
+    width: auto !important;
+    padding: .75em;
+    text-align: left;
+    margin-left: 1.25em;
 }
 
 .cbi-tooltip-container:hover .cbi-tooltip:not(:empty) {
@@ -1741,19 +1754,24 @@ textarea {
     .main-left {
         width: calc(0% + 13rem)
     }
+
     .main-right {
         width: calc(100% - 13rem)
     }
+
     .cbi-button {
         padding: .3rem .6rem
     }
+
     .cbi-value-title {
         width: 15rem;
         padding-right: .6rem
     }
+
     .cbi-input-textarea {
         font-size: small
     }
+
     .node-status-iptables>.main fieldset li>a {
         padding: .3rem .6rem
     }
@@ -1765,16 +1783,20 @@ textarea {
         top: 3.5rem;
         height: calc(100% - 3.5rem)
     }
+
     .main-right {
         width: calc(100% - 13rem)
     }
+
     .cbi-tabmenu>li>a,
     .tabs>li>a {
         padding: .2rem .5rem
     }
+
     .panel-title {
         font-size: 1.1rem
     }
+
     table {
         font-size: .7rem !important;
         width: 100% !important
@@ -1787,9 +1809,11 @@ textarea {
         position: fixed;
         z-index: 100
     }
+
     .main-right {
         width: 100%
     }
+
     .showSide {
         padding: .1rem;
         margin-right: .5rem;
@@ -1797,35 +1821,44 @@ textarea {
         line-height: 51px;
         vertical-align: top
     }
+
     .showSide:before {
         font-family: icomoon;
         content: "\e20e";
         font-size: 1.7rem
     }
+
     .node-main-login .showSide {
         display: none !important
     }
+
     .cbi-value-title {
         width: 9rem;
         padding-right: 1rem
     }
+
     .node-network-diagnostics>.main .cbi-map fieldset>div,
     .node-network-diagnostics>.main .cbi-map fieldset>div * {
         width: 100% !important
     }
+
     .node-network-diagnostics>.main .cbi-map fieldset>div input[type=text] {
         margin: 3rem 0 0 !important
     }
+
     .node-network-diagnostics>.main .cbi-map fieldset>div:nth-child(4) input[type=text] {
         margin: 0 !important
     }
+
     .node-network-diagnostics>.main .cbi-map fieldset>div input[type=button],
     .node-network-diagnostics>.main .cbi-map fieldset>div select {
         margin: 1rem 0 0
     }
+
     #diag-rc-output>pre {
         font-size: 1rem
     }
+
     .node-main-login>.main .cbi-value-title {
         text-align: left
     }
@@ -1835,12 +1868,15 @@ textarea {
     body {
         font-size: 1rem
     }
+
     .tabs {
         margin: 0 -1rem
     }
+
     #maincontent>.container {
         margin: 0 1rem 1.5rem
     }
+
     .cbi-value-title {
         width: 100%;
         min-width: 0 !important;
@@ -1849,60 +1885,76 @@ textarea {
         margin-bottom: .5rem;
         text-align: left
     }
+
     .cbi-value-description,
     .cbi-value-field {
         width: 100%
     }
+
     .cbi-value>.cbi-value-field {
         display: inline-block
     }
+
     .cbi-page-actions>div>input,
     .mobile-hide {
         display: none
     }
+
     .cbi-tabmenu>li,
     .tabs>li {
         padding: .6rem 0
     }
+
     .cbi-tabmenu>li>a,
     .tabs>li>a {
         padding: .2rem .3rem;
         font-size: .9rem
     }
+
     .node-main-login>.main .container {
         padding: .5rem 1rem 2rem
     }
+
     .node-main-login>.main .cbi-value {
         padding: 0
     }
+
     .node-main-login>.main form>div:nth-last-child(1) {
         margin-top: 2rem
     }
+
     .node-main-login>.main .cbi-value-title {
         width: 100% !important;
         font-size: 1.2rem
     }
+
     .node-main-login>.main fieldset {
         margin: 0;
         padding: .5rem
     }
+
     h2 {
         font-size: 2rem
     }
+
     .tabs>li>a,
     input,
     select {
         font-size: .9rem
     }
+
     .panel-title {
         font-size: 1.4rem
     }
+
     .node-system-packages>.main .cbi-value.cbi-value-last>div {
         width: 100% !important
     }
+
     .node-system-packages>.main .cbi-value .cbi-value-field input {
         width: 100%
     }
+
     .node-status-iptables>.main div>.cbi-map>form {
         position: static !important;
         margin: 0 0 2rem;
@@ -1920,16 +1972,19 @@ textarea {
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
         -webkit-overflow-scrolling: touch
     }
+
     .node-status-iptables>.main div>.cbi-map>form input[type=submit] {
         width: 100% !important;
         margin: 0
     }
+
     .node-status-iptables>.main div>.cbi-map>form input[type=submit]+input[type=submit] {
         margin-top: 1rem
     }
 }
 
 @media screen and (min-width:992px) {
+
     .cbi-value input[type=password],
     .cbi-value input[type=text],
     .cbi-value-field .cbi-input-select {
@@ -1938,6 +1993,7 @@ textarea {
 }
 
 @media screen and (min-width:1280px) {
+
     .cbi-value input[type=password],
     .cbi-value input[type=text],
     .cbi-value-field .cbi-input-select {
@@ -1946,6 +2002,7 @@ textarea {
 }
 
 @media screen and (min-width:1600px) {
+
     .cbi-value input[type=password],
     .cbi-value input[type=text],
     .cbi-value-field .cbi-input-select {
